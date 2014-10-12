@@ -1,0 +1,12 @@
+{
+    "name": "dropbox-backup",
+    "version": "0.1.1",
+    "author": "Guilherme Sehn <contato@guisehn.com>",
+    "description": "Backups a directory to Dropbox",
+    "dependencies": {
+        "dbox": "0.5.5",
+        "cron": "",
+        "async": "",
+        "q": ""
+    }
+}
