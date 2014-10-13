@@ -6,7 +6,8 @@
     "projects": [
         {
             "name": "budget",
-            "db" : "budget_dev"
+            "db" : "budget_dev",
+            "pathToFiles": ""
         }
     ]
 }

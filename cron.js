@@ -11,11 +11,15 @@ Day of Week: 0-6*
 */
 
 
-new cronJob('00 30 11,19 * * 1-5', function(){
+/*new cronJob('00 30 11,19 * * 1-5', function(){
+    var backup = new Backup();
+    backup.execute();
+}, null, true, "Europe/Kiev");*/
+
+new cronJob('* * * * * *', function(){
     var backup = new Backup();
     backup.execute();
 }, null, true, "Europe/Kiev");
 
 
-var backup = new Backup();
-backup.execute();
+
